@@ -71,6 +71,27 @@ img {
     flex-basis: 50%;
 }
 
+.subb2 {
+    border-top-color: hsl(34, 97%, 64%);
+    flex-basis: 50%;
+}
+
+@media (max-width: 1000px) {
+    .container {
+        text-align: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+    }
+
+    .header .p1 {
+        line-height: normal;
+    }
+}
+
+
+
 footer {
     display: table;
     text-align: center;
